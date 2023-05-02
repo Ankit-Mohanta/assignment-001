@@ -1,0 +1,53 @@
+.Card{
+    height: 300px;
+    width: 600px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 768px){
+        width: 350px;
+      }
+
+    .top{
+        height: 65px;
+        width: 100%;
+        background: #FF4F4F;
+        border-radius: 20px 20px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+
+        .button{
+            height: 55px;
+            width: 135px;
+            font-size: 10px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            @media only screen and (max-width: 768px){
+                width: 100px;
+                font-size: 9px;
+              }
+        }
+        .budget{
+            background: black;
+            border-radius: 20px 0px 0px 0px;
+            box-shadow: 6px 2px 1px 0px rgba(0, 0, 0, 0.6);
+        }
+        .type{
+            background: black;
+            border-radius: 0px 20px 0px 0px;
+            box-shadow: 6px 2px 1px 0px rgba(0, 0, 0, 0.6);
+        }
+        .size{
+            background: black;
+            box-shadow: 6px 2px 1px 0px rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+        }
+    }
+}

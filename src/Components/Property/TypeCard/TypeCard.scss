@@ -1,0 +1,15 @@
+.TypeCard{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+background: rgba(255, 79, 79, 0.11);
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+span{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 79, 79, 1);
+}
+}

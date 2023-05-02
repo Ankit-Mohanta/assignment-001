@@ -1,0 +1,21 @@
+.BHK{
+    height: 35px;
+    width: 80px;
+    border-radius: 18px;
+    background: rgba(255, 79, 79, 0.11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+
+    :nth-child(1){
+        font-weight: 600;
+        font-size: 22px;
+    }
+    :nth-child(2){
+        font-weight: 500;
+        font-size: 18px;
+        color: rgba(255, 79, 79, 1)
+    }
+}

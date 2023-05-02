@@ -1,0 +1,173 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(166, 166, 241);
+  .navbar {
+    height: 9vh;
+  }
+  .container {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    .intro {
+      font: Poppins;
+      font-size: 60px;
+      color: white;
+
+      @media only screen and (max-width: 768px){
+        font-size: 40px;
+      }
+
+      .firstline {
+        :nth-child(1) {
+          font-weight: 275;
+        }
+        :nth-child(2) {
+          font-weight: 500;
+        }
+        :nth-child(3) {
+          width: 60px;
+          height: 60.4px;
+          color: #ff4f4f;
+          transform: rotate(49.01deg);
+          @media only screen and (max-width: 768px){
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+      .secondline {
+        :nth-child(1) {
+          color: #ff4f4f;
+          font-weight: 500;
+        }
+        :nth-child(2) {
+          font-weight: 300;
+        }
+      }
+    }
+    .search {
+      width: 600px;
+      height: 65px;
+      border-radius: 55px;
+      box-shadow: 0px 3.2072787284851074px 3.2072787284851074px 0px
+        rgba(0, 0, 0, 0.25);
+      background: white;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      padding-left: 30px;
+      padding-right: 30px;
+
+      @media only screen and (max-width: 768px){
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+      }
+
+    .residential{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        @media only screen and (max-width: 768px){
+          display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        }
+    }
+
+    .LocationSearch{
+        border: none;
+        outline: none;
+        margin-left: 20px;
+        width: 215px;
+        height: 20px;
+        @media only screen and (max-width: 768px){
+          width: 150px;
+        }
+    }
+
+    .location{
+        margin-left: 30px;
+        color: rgba(255, 49, 49, 1);
+        @media only screen and (max-width: 768px){
+          display: none;
+        }
+    }
+
+    .filter{
+        margin-left: 20px;
+        @media only screen and (max-width: 768px){
+          display: none;
+        }
+    }
+
+      button {
+        margin-left: 20px;
+        width: 100px;
+        height: 40px;
+        background: #383838;
+        box-shadow: 0px 3.20728px 3.20728px rgba(0, 0, 0, 0.7);
+        border-radius: 0px 21.6491px 21.6491px 0px;
+        color: white;
+        font-weight: 600;
+        font-family: Inter;
+        cursor: pointer;
+        @media only screen and (max-width: 768px){
+          display: none;
+        }
+      }
+    }
+    .Filter{
+        background: rgb(128, 128, 242);
+        height: 90px;
+        width: 600px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        opacity: 0.99;
+        box-shadow: 0px 3.35901px 3.35901px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        @media only screen and (max-width: 768px){
+          display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        width: 300px;
+        height: fit-content;
+        }
+
+        button{
+            width: 140px;
+            height: 45px;
+            background: #FF4F4F;
+            border-radius: 25px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            @media only screen and (max-width: 768px){
+              padding: 10px;
+              margin-top: 1.5vh;
+              margin-bottom: 1.5vh;
+            }
+        }
+    }
+  }
+  .paper{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 20px;
+  }
+}
